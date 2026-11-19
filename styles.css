@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #00030C;
+    color: white;
+}
+.fundo {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    text-align: center;
+}
+
+.container img{
+    width: 35%;
+}
+
+div{
+    height: 50px;
+    width: 50%;
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+img{
+    margin-left: 7%;
+}
+
+.botao {
+    display: block;
+    background-color: #167BF7;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 20px 100px;
+    border-radius: 10px;
+}
+
+.secundario {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+p {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.texto-baixo{
+    padding-top: 15%;
+    
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
