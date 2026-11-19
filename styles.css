@@ -1,34 +1,34 @@
 body {
-    font-family: Arial;
-    margin: 0;
     background-color: #00030C;
     color: white;
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
 }
-.fundo {
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    gap: 50px;
+}
+
+
+.principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 900px;
+    padding: 120px 8%;
     text-align: center;
 }
 
-.container img{
-    width: 35%;
+.caixa {
+    width: 45%;
 }
 
-div{
-    height: 50px;
-    width: 50%;
-    
-}
-
-h1 {
-    font-size: 30px;
-}
-
-img{
-    margin-left: 7%;
+.logo-combo {
+    margin: 24px 0 32px 0;
+    max-width: 100%;
 }
 
 .botao {
@@ -36,29 +36,104 @@ img{
     background-color: #167BF7;
     color: white;
     text-decoration: none;
-    padding: 12px;
-    margin: 20px 100px;
-    border-radius: 10px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
 }
 
-.secundario {
+.botao-secundario {
     background-color: transparent;
     border: 1px solid white;
 }
 
-p {
-    color: #C0C0C0;
-    font-size: 14px;
-    line-height: 1.5;
+.botao-inline {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 24px;
 }
 
-.texto-baixo{
-    padding-top: 15%;
-    
+.aviso {
+    font-size: 12px;
+    color: #C0C0C0;
+}
+
+.secundario {
+    justify-content: space-between;
+}
+
+.secundario img {
+    width: 45%;
+}
+
+.secundario div {
+    width: 50%;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 1.3;
 }
 
 h2 {
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 44px;
+    margin: 0 0 16px 0;
 }
 
+p {
+    color: #C0C0C0;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.dispositivos {
+    text-align: center;
+    padding: 80px 8%;
+}
+
+.lista-flex {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.lista-flex h3 {
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 60px 8% 80px 8%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 32px 0;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rodape a:hover {
+    color: #167BF7;
+}
+
+footer p {
+    font-size: 13px;
+    margin-bottom: 16px;
+}
